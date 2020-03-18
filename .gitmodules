@@ -1,0 +1,3 @@
+[submodule "external/smpl"]
+	path = external/smpl
+	url = https://github.com/sigurdschneider/smpl.git

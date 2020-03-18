@@ -31,3 +31,13 @@ lia.cache
 nia.cache
 nlia.cache
 nra.cache
+
+*.aux
+*.vo
+*.v.d
+*.glob
+*Makefile.coq
+*Makefile.coq.conf
+*.coqdeps.d
+*.lia.cache
+*.nia.cache

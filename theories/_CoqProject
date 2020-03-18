@@ -1,0 +1,13 @@
+-Q "../external/smpl/theories/" smpl
+-I "../external/smpl/src/"
+
+-Q . Nary
+
+-install none
+-arg -w -arg -notation-overridden,-redundant-canonical-projection,-several-object-files,cannot-define-projection,records,unused-intro-pattern,tactics
+COQDOCFLAGS = "--charset utf-8 --parse-comments -s --with-header ./website/resources/header.html --with-footer ./website/resources/footer.html --index indexpage"
+
+Prelims.v
+UpToC.v
+UpToCNary.v
+GenericNary.v
